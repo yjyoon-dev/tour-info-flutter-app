@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "345261820799",
+    "firebase_url": "https://flutter-firebase-example-5874b-default-rtdb.firebaseio.com",
+    "project_id": "flutter-firebase-example-5874b",
+    "storage_bucket": "flutter-firebase-example-5874b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345261820799:android:16ab8f3da7605d1426284a",
+        "android_client_info": {
+          "package_name": "com.example.tourinfoflutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "345261820799-3de0itt0oso7bl2kpogq2duk9nhgddmq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzoEQb1tD6us0tF6nt29tiuBsG5-XqaMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "345261820799-3de0itt0oso7bl2kpogq2duk9nhgddmq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
