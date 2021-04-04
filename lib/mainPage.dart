@@ -43,7 +43,7 @@ class _MainPage extends State<MainPage> with SingleTickerProviderStateMixin {
         children: [
           MapPage(databaseReference: reference, db: widget.database, id: id),
           FavPage(databaseReference: reference, db: widget.database, id: id),
-          SettingPage()
+          SettingPage(databaseReference: reference, id: id)
         ],
         controller: tabController,
       ),
