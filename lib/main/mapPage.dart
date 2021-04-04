@@ -6,6 +6,7 @@ import 'package:firebase_database/firebase_database.dart';
 import 'package:http/http.dart' as http;
 import 'package:tour_info_flutter_app/data/tour.dart';
 import 'package:tour_info_flutter_app/data/listData.dart';
+import 'package:tour_info_flutter_app/main/tourDetailPage.dart';
 import 'package:sqflite/sqflite.dart';
 
 class MapPage extends StatefulWidget {
@@ -152,7 +153,15 @@ class _MapPage extends State<MapPage> {
                             )
                           ],
                         ),
-                        onTap: () {},
+                        onTap: () {
+                          Navigator.of(context).push(MaterialPageRoute(
+                              builder: (context) => TourDetailPage(
+                                  id: widget.id,
+                                  tourData: tourData[index],
+                                  index: index,
+                                  databaseReference:
+                                      widget.databaseReference)));
+                        },
                       ),
                     );
                   },

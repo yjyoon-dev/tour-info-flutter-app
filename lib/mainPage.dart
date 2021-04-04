@@ -37,7 +37,11 @@ class _MainPage extends State<MainPage> with SingleTickerProviderStateMixin {
     id = ModalRoute.of(context).settings.arguments;
     return Scaffold(
       body: TabBarView(
-        children: [MapPage(), FavPage(), SettingPage()],
+        children: [
+          MapPage(databaseReference: reference, id: id),
+          FavPage(),
+          SettingPage()
+        ],
         controller: tabController,
       ),
       bottomNavigationBar: TabBar(
